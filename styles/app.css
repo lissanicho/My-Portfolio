@@ -18,11 +18,16 @@ color:black;
 h1{
     font-size:96px;
 }
+h2{
+    font-size: 64px;
+}
 
 p{
     font-family: var(--heading-font-family);
 font-weight:normal;
 color:black;
+font-size: 16px;
+line-height: 30px;
 }
 
 .hero {
@@ -56,3 +61,15 @@ color:black;
     padding:15px 30px;
 }
 
+.btn-projects{
+    border-radius: 4px;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 15px 30px;
+        color:var(--button-color);
+        border: 1px solid var(--button-color);
+}
+
+.project-outline{
+    padding:20px;
+}
