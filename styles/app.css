@@ -75,9 +75,31 @@ line-height: 30px;
     padding: 120px 60px;
 }
 
+.profile-image{
+    border-radius: 20px;
+    max-width:560px;
+}
+.about-section{
+    padding:160px 20px;
+}
+
+.about-section h1{
+    font-size:64px;
+    line-height: 80px;
+}
+
+.about-section h2{
+    font-family: var(--default-font-family);
+    font-size:18px;
+}
+
+.about-section-content{
+    margin:30px;
+}
+
 @media(max-width: 960px){
     h1{
-        font: size 60px;
+        font-size: 44px;
     }
     h2{font-size: 44px;}
     .project-outline{
@@ -85,5 +107,9 @@ line-height: 30px;
     text-align: center;    }
     .hero{
         padding:80px 20px;
+    }
+    .about-section{
+        text-align:center;
+        padding:0px;
     }
 }
