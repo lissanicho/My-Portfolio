@@ -71,16 +71,16 @@ line-height: 30px;
         border: 1px solid var(--button-color);
 }
 
-.project-outline{
+.project-outline {
     padding: 120px 60px;
 }
 
-.profile-image{
+.profile-image {
     border-radius: 20px;
     max-width:560px;
 }
-.content-container{
-    padding:160px 20px;
+.content-container {
+    padding: 160px 20px;
 }
 
 .content-container h1{
