@@ -107,6 +107,46 @@ line-height: 30px;
     margin:30px;
 }
 
+.logo{
+    max-height:150px;
+}
+
+nav{
+    padding:20px 0;
+}
+
+nav ul{
+    padding:0;
+    margin: 0;
+}
+
+nav li{
+    display:inline;
+    list-style:none;
+    line-height: 42px;
+    margin-left:15px
+
+}
+
+nav li.active a {
+    color:var(--button-color);
+}
+
+nav a{
+    text-decoration: none;
+    color: #272142;
+
+
+ nav a:hover {
+    color:var(--button-color)
+ }   ;
+    
+}
+
+#small-image{
+    max-height:40px;
+}
+
 @media(max-width: 960px){
     h1{
         font-size: 44px;
@@ -121,5 +161,10 @@ line-height: 30px;
     .content{
         text-align:center;
         padding:0px;
+
+        nav a{
+            font-size:12px;
+
+        }
     }
 }
