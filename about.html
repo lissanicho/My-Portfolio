@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
+    <meta name="description" content="Learn more about Perth based front end developer Larissa"/>
+    <title>Learn more about Larissa</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,6 +30,33 @@
     <link rel="stylesheet" href="styles/app.css" />
   </head>
   <body>
+    <div class="container">
+       <nav class="d-flex justify-content-between"> 
+        <a href="/">
+        <img src="images/logo-image.png" 
+        class="logo d-none d-md-block" 
+        alt="SheCodes logo" />
+       <img src="images/logo-image-small.png"
+       class="logo d-block d-md-none"
+       alt="SheCodes logo"
+       id="small-image"
+       />
+       </a>
+        <ul>
+          <li >
+            <a href="/" title="Homepage">Home</a>
+            </li>
+          <li class="active">
+            <a href="/about.html" title="About Me">About</a>
+            </li>
+          <li>
+            <a href="/work.html" title="View my Work">Work</a>
+            </li>
+          <li>
+            <a href="/contact.html" title="Contact Me">Contact</a>
+            </li>
+        </ul>
+      </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -43,7 +71,7 @@
               understanding of different coding elements. Building this
               portfolio is a project from the SheCodes React course.
             </p>
-            <a href="#" class="btn btn-contact">View My Projects</a>
+            <a href="/contact.html" class="btn btn-contact">View My Projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -51,9 +79,46 @@
             src="images/profile-image.jpg"
             class="profile-image"
             class="img-fluid"
+            alt="Larissa's profile image"
           />
         </div>
       </div>
     </div>
+    <footer class="container"> 
+  <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+    <div>
+      <h3>Work Enquiry</h3>
+      <p class="text-muted">Let's work together</p>
+    </div>
+  <div>
+    <a href="/contact.html" class="btn btn-contact">Contact Me</a>
+  </div>
+</div>
+
+<div class="d-flex justify-content-center mb-5">
+    <a href="mailto:larissa@email.com"
+          class="email-link" title="Email Larissa">Larissa@email.com</a>
+       </div> 
+
+<div class="social-links d-flex justify-content-center">
+          <a href="https://www.instagram.com"
+          target="_blank"
+          title="Instagram profile"><i class="fa-brands fa-instagram"></i>
+          </a>
+        <a href="https://www.github.com"
+        target="_blank"
+          title="Github profile">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.facebook.com"
+        target="_blank"
+        title="Facebook profile"><i class="fa-brands fa-facebook"></i>
+        </a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by Larissa and is <a href="https://github.com/lissanicho/My-Portfolio" target="_blank" title="My Github Respository">open sourced</a>
+        </p>
+      
+      </footer>
   </body>
 </html>

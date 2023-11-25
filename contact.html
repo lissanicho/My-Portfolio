@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>View My Work</title>
+    <meta name="description" content="Find contact details for Larissa"/>
+    <title>Contact Larissa</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -35,25 +36,25 @@
         <a href="/">
         <img src="images/logo-image.png" 
         class="logo d-none d-md-block" 
-        alt="" />
+        alt="SheCodes logo" />
        <img src="images/logo-image-small.png"
        class="logo d-block d-md-none"
-       alt=""
+       alt="SheCodes logo"
        id="small-image"
        />
        </a>
         <ul>
+          <li >
+            <a href="/" title="Homepage">Home</a>
+            </li>
+          <li>
+            <a href="/about.html" title="About Me">About</a>
+            </li>
+          <li>
+            <a href="/work.html" title="View my Work">Work</a>
+            </li>
           <li class="active">
-            <a href="/">Home</a>
-            </li>
-          <li>
-            <a href="/about.html">About</a>
-            </li>
-          <li>
-            <a href="/work.html">Work</a>
-            </li>
-          <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Me">Contact</a>
             </li>
         </ul>
       </div>
@@ -62,13 +63,49 @@
       <div class="content">
         <h1 class="mb-5">Get in touch with me</h1>
         <h3>Email</h3>
-        <p><a href="mailto:Larissa@email.com">@Larissa</a></p>
+        <p><a href="mailto:Larissa@email.com" title="Email Larissa">@Larissa</a></p>
         <h3>Twitter</h3>
-        <p><a href="https://twitter.com" target="_blank">@Larissa</a></p>
+        <p><a href="https://twitter.com" target="_blank" title="Visit Larissa's Twitter account">@Larissa</a></p>
 
         <h3>Instagram</h3>
-        <p><a href="https://instagram.com" target="_blank">@Larissa</a></p>
+        <p><a href="https://instagram.com" target="_blank" title="Visit Larissa's Facebook account">@Larissa</a></p>
       </div>
     </div>
+    <footer class="container"> 
+  <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+    <div>
+      <h3>Work Enquiry</h3>
+      <p class="text-muted">Let's work together</p>
+    </div>
+  <div>
+    <a href="/contact.html" class="btn btn-contact">Contact Me</a>
+  </div>
+</div>
+
+<div class="d-flex justify-content-center mb-5">
+    <a href="mailto:larissa@email.com"
+          class="email-link" title="Email Larissa">Larissa@email.com</a>
+       </div> 
+
+<div class="social-links d-flex justify-content-center">
+          <a href="https://www.instagram.com"
+          target="_blank"
+          title="Instagram profile"><i class="fa-brands fa-instagram"></i>
+          </a>
+        <a href="https://www.github.com"
+        target="_blank"
+          title="Github profile">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.facebook.com"
+        target="_blank"
+        title="Facebook profile"><i class="fa-brands fa-facebook"></i>
+        </a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by Larissa and is <a href="https://github.com/lissanicho/My-Portfolio" target="_blank" title="My Github Respository">open sourced</a>
+        </p>
+      
+      </footer>
   </body>
 </html>
